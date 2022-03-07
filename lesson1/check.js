@@ -1,5 +1,5 @@
-const length1 = prompt("Введите первое число!")
-const length2 = prompt("Введите второе число!")
+const length1 = [ `` ]
+const length2 = [ `` ]
 
 if (length1 < length2)
 {

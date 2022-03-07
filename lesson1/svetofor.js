@@ -1,13 +1,13 @@
-const color = prompt("Choose type of color: Red, Yellow, Green!");
+const color = prompt("Choose type of color: red, yellow, green!");
 
 switch(color) {
-    case "Green":
+    case "green":
         alert("Goo!")
     break;
-    case "Red":
+    case "red":
         alert("Stop!")
         break;
-    case "Yellow":
+    case "yellow":
         alert("Wait...")
         break;
     default:
