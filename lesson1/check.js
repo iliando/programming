@@ -1,15 +1,11 @@
-const length1 = [ `` ]
-const length2 = [ `` ]
+const length1 = [ `ff`, 32,
 
-if (length1 < length2)
-{
-    alert(`${length1} < ${length2}`);
-}
-else if (length1 > length2)
-{
-    alert(`${length1} > ${length2}`);
-}
-else
-{
-    alert(`${length1} + ${length2}`);
-}
+]
+const length2 = [ `dfd`, 54, 'fgf' ]
+        if (length1.length > length2.length) {
+             alert('первый больше')
+        } else if (length1.length === length2.length) {
+            alert('они равны!')
+        } else if (length1.length < length2.length) {
+            alert('второй больше')
+        }
