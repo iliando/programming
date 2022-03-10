@@ -79,27 +79,31 @@
 // }
 
 
-const users = [
-    {
-        username: 'Jack',
-        salary: 500
-    },
-    {
-        username: 'John',
-        salary: 5000
-    },
-    {
-        username: 'Vito',
-        salary: 10000
-    }
-];
+// const users = [
+//     {
+//         username: 'Jack',
+//         salary: 500
+//     },
+//     {
+//         username: 'John',
+//         salary: 5000
+//     },
+//     {
+//         username: 'Vito',
+//         salary: 10000
+//     }
+// ];
+//
+// const  filteredUsers = [];
+//
+// for(let user of users){
+//     if(user.salary > 500 ){
+//         filteredUsers.push(user)
+//     }
+// }
+//
+// console.log(filteredUsers)
+//
 
-const  filteredUsers = [];
 
-for(let user of users){
-    if(user.salary > 500 ){
-        filteredUsers.push(user)
-    }
-}
-
-console.log(filteredUsers)
+const num = 1;
