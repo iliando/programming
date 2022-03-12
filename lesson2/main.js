@@ -93,17 +93,17 @@
 //         salary: 10000
 //     }
 // ];
-//
-// const  filteredUsers = [];
-//
-// for(let user of users){
-//     if(user.salary > 500 ){
-//         filteredUsers.push(user)
-//     }
-// }
-//
-// console.log(filteredUsers)
-//
+
+const  filteredUsers = [];
+
+for(let user of users){
+    if(user.salary > 500 ){
+        filteredUsers.push(user)
+    }
+}
+
+console.log(filteredUsers)
+
 
 
 const num = 1;
