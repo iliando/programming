@@ -104,6 +104,4 @@ for(let user of users){
 
 console.log(filteredUsers)
 
-
-
 const num = 1;
