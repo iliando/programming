@@ -1,11 +1,10 @@
-
-
-
 let cou = document.getElementById('cou')
+
+
     let counter = 0;
     function fun_1() {
     counter++
-        cou.innerHTML  = counter;
+        cou.innerHTML = counter;
     }
     function fun_2() {
         counter--;
