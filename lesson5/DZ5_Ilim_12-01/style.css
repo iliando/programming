@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://i.pinimg.com/474x/1c/7b/17/1c7b17a53ee563b6d279cde545dd35d5.jpg") no-repeat center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.svetofor {
+    border:10px solid midnightblue;
+    width: 200px;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+
+}
+.red {
+    margin: 20px auto 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.yellow {
+    margin: 20px auto 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.green {
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.color {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
