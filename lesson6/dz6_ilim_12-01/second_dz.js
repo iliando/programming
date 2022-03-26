@@ -1,4 +1,4 @@
-const obj = {
+let obj = {
     key: '1',
     key2: '2',
     key3: '3',
@@ -6,7 +6,7 @@ const obj = {
     key5: '5'
 }
 
-const obj2 = {
+let obj2 = {
     ...obj,
     key6: '6',
     key7: '7',
