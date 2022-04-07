@@ -5,6 +5,32 @@ const list = [
     // }
 ];
 
+// const button = document.getElementById('loki')
+//
+// function change1(id){
+//     const item1 = list.findIndex(t =>t.id === id)
+//     const text1 = prompt('change')
+//     list[item1].text1 = text1
+//     render()
+// }
+//
+// function delete1(id){
+//     const index1 = list.findIndex(t =>t.id === id)
+//     list.splice(index1, 1)
+//     render()
+// }
+//
+// function render() {
+//     const maindiv = document.createElement('div1')
+//     maindiv.setAttribute('class', 'list')
+//     for(let i = 0; i < list.length; i++){
+//         const div1 = document.createElement('div1')
+//         div.setAttribute('class', 'todoBlock')
+//         const p = document.createElement('p')
+//         p.innerText = list[i].text
+//         div.append(p)
+//     }
+// }
 const addButton = document.getElementById('button');
 const input = document.getElementById('input');
 
