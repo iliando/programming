@@ -14,10 +14,10 @@ function Search (e){
             return result === false
         }
         else if (result === false){
-            console.log('Не найдено совпадений')
+            console.log('Совпадений не найдено!')
         }
         else if (result ===  true){
-            alert("Найдены совпадения")
+            alert("Совпадения найдены!")
         }
     });
 }
