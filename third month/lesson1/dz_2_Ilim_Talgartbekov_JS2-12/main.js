@@ -1,4 +1,4 @@
-const Arr = ["Anna", 'John', 'Joe', 'Dastan'];
+const Arr = ["Dusty", 'Johny', 'Joe', 'Ilim'];
 
 const btn = document.getElementById('btn');
 const numbers = document.getElementById('numbers')
