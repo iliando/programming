@@ -1,7 +1,10 @@
 const Arr = ["Dusty", 'Johny', 'Joe', 'Ilim'];
 
 const btn = document.getElementById('btn');
-const numbers = document.getElementById('numbers')
+const numbers = document.getElementById('numbers');
+const input = document.getElementById('name');
+
+
 
 
 function Search (e){
