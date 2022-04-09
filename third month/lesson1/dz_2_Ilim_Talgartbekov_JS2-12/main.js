@@ -1,29 +1,8 @@
-const Arr = ["Dusty", 'Johny', 'Joe', 'Ilim'];
 
 const btn = document.getElementById('btn');
 const numbers = document.getElementById('numbers');
-const input = document.getElementById('name');
 
 
-
-
-function Search (e){
-    e.preventDefault()
-    Arr.forEach(element => {
-        const regex = new RegExp(`${input.value}`, 'gi');
-        const result = regex.test()
-        if (input.value === ''){
-            console.log('Поле пустое')
-            return result === false
-        }
-        else if (result === false){
-            console.log('Совпадений не найдено!')
-        }
-        else if (result ===  true){
-            alert("Совпадения найдены!")
-        }
-    });
-}
 
 function addNumberTag (){
     const regex = new RegExp(`\\W`, 'g')
