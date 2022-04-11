@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+
+    color: blue;
+}
+h2 {
+    text-align: center;
+    color: blue;
+    font-family: Serif;
+}
+
+b {
+    color: red;
+}
+i {
+    color: blue;
+}
+
+.one {
+    width: 420px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.two {
+    width: 420px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.three {
+    width: 420px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.four {
+    width: 420px;
+    text-align: justify;
+    text-indent: 40px;
+}
+.five {
+    text-align: center;
+}
+p {
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+}
+.Nurzaman {
+    color: red;
+    text-align: justify;
+    margin: 0 auto;
+}

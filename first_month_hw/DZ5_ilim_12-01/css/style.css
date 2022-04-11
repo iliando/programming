@@ -1,0 +1,172 @@
+/* HOME start */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/home_1.png') no-repeat center;
+    background-size: cover;
+}
+
+.home__inner {
+    flex: 0 1 580px;
+    text-align: center;
+    color: #fff;
+}
+
+.home__inner h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 5px;
+}
+
+.home__inner p {
+    max-width: 540px;
+    margin: 40px auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* HOME end */
+/* EASY */
+.easy {
+    padding: 95px 0;
+}
+
+.easy__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.easy__inner .left {
+    flex: 0 1 445px;
+    padding-top: 45px;
+}
+
+.easy__inner .left p {
+    margin: 50px 0 20px;
+}
+
+.easy__inner .left a {
+    color: red;
+}
+
+.easy__inner .right {
+    position: relative;
+    padding-right: 95px;
+}
+
+.easy__inner .right .play {
+    position: absolute;
+    top: calc(50% - 33px);
+    left: -33px;
+    display: block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #ED4C5C;
+}
+
+/* FEATURES */
+
+.features {
+    background-color: #FAFAFA;
+    padding: 70px 0;
+    height: 660px;
+}
+
+.features__inner .h2 {
+    /*width: 100%;*/
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards {
+    /*position: relative;*/
+    padding-top: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.gallery-2 {
+    margin: 0 30px;
+}
+
+.block-1 h3 {
+    margin: 0 auto;
+    padding-top: 33px;
+    width: 229px;
+}
+
+.block-1 p {
+    margin: 20px 32px;
+    font-weight: 400;
+    font-size: 12px;
+    width: 230px;
+}
+
+.block-1 a {
+    color: red;
+}
+
+.block-1 {
+    position: relative;
+    width: 293px;
+    left: 29px;
+    height: 198px;
+    background: white;
+    bottom: 100px;
+    border-radius: 8px;
+}
+
+
+/* TECHNOLOGY */
+
+.technology__inner {
+    text-align: center;
+    margin: 60px 0 50px;
+    padding-bottom: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-1 {
+    text-align: center;
+    width: 255px;
+    height: 217px;
+}
+
+.logo-1 div {
+    position: relative;
+    bottom: 64px;
+    text-align: center;
+    width: 255px;
+    height: 217px;
+}
+
+.logo-1 div h3 {
+    padding-bottom: 10px;
+}
+
+.logo-1 .p {
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: 100px;
+}
+.logo-1 p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.technology .container .a {
+    padding: 65px 0 65px 0;
+    text-align: center;
+}
+
+/* EASY end */

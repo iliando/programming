@@ -1,8 +1,25 @@
+const names = ["Ilim", 'Chloe', 'Figana', 'Dastan', 'Amanya'];
 
+const input = document.getElementById('name');
 const btn = document.getElementById('btn');
 const numbers = document.getElementById('numbers');
 
-
+function Search (e){
+    e.preventDefault()
+    names.forEach(element => {
+        const regex = new RegExp(`${input.value}`, 'gi');
+        const result = element.match(regex)
+        if (input.value === ''){
+            alert('После пустое!')
+        }
+        else if (result.length === 0){
+            alert('Совпадений не найдено!')
+        }
+        else if (result.length > 0){
+            alert("Совпадения найдены!")
+        }
+    });
+}
 
 function addNumberTag (){
     const regex = new RegExp(`\\W`, 'g')
